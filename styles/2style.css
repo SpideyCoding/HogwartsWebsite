@@ -1,0 +1,68 @@
+html {
+  background-color: #003380;
+}
+
+h1 {
+	color: #ffff00;
+	padding: 20px 0;
+	font-size: 50px;
+	text-align: center;
+  border-radius: 1em;
+  font-family: 'Parseltongue', sans-serif;
+}
+
+h3, h4 {
+	color: #99e6ff;
+	font-size: 35px;
+	text-align: left;
+	text-shadow: 2px 2px rgb(0, 0, 0);
+	font-family: 'Magic School One', sans-serif;
+}
+
+li {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Harry Potter', sans-serif;
+  line-height: 1.5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px dotted yellow;
+}
+
+th, td {
+  padding: 20px;
+}
+
+thead th, tfoot th {
+  text-shadow: 1px 1px 1px black;
+}
+
+th {
+  font-family: 'Magic School One', sans-serif;
+  font-size: 35px;
+  color: #99e6ff;
+  letter-spacing: 2px;
+}
+
+tbody td {
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Dumbledor 1', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+thead th, tfoot th, tfoot td {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #000099;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #003399;
+}

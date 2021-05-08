@@ -1,0 +1,48 @@
+html {
+  	background-color: #003380;
+}
+
+h1 {
+	color: #ffff00;
+	padding: 20px 0;
+	font-size: 60px;
+	text-align: center;
+  	border-radius: 1em;
+  	font-family: 'Parseltongue', sans-serif;
+}
+
+h3, h4 {
+	color: #99e6ff;
+	font-size: 30px;
+	text-align: left;
+	text-shadow: 2px 2px rgb(0, 0, 0);
+	font-family: 'Harry Potter', sans-serif;
+}
+
+p {
+	color: #ffffff;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	line-height: 1.5;
+    letter-spacing: 1px;
+	font-size: 20px;
+	font-family: 'Dumbledor 1', sans-serif;
+}
+
+li {
+	font-size: 30px;
+	color: #ffffff;
+	font-family: 'Magic School One', sans-serif;
+	line-height: 1.5;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img2 {
+  float: right;
+}
